@@ -1,0 +1,922 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+a:hover{
+    color: #FF6551!important;
+}
+
+.brandname{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+}
+
+.menu{
+    top: 17px;
+    gap: 21px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #737373;
+    margin-left: 5%;
+}
+
+.menu a{
+    color: #737373;
+}
+
+.navbar-transparent .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.buttons{
+    top: 3px;
+    left: 515px;
+    gap: 45px;
+}
+
+.login-button{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: right;
+    color: #FF6551;
+}
+
+
+.joinus-button{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: white;
+    background: #FF6551;
+    width: 137px;
+    height: 52px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    gap: 15px;
+    border: none;
+}
+
+
+/* Estilos Header*/
+
+#header {
+    background-image: url("images/hero-8-bg-shape-cover.png"); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* This property ensures that the background image covers the entire section */
+    background-position: center; /* This property centers the background image within the section */
+    height: 1100px; /* Set the desired height of your section */
+    /* You can add more styles as needed */
+    margin-top: -5%;
+}
+
+.header-one{
+    margin-top: -45%;
+    z-index: 1;
+}
+.text-header-color{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #FF6551;
+    margin-bottom:3%;
+}
+
+.text-header{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #252B42;
+    margin-bottom:3%;
+}
+
+.l-text-header{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+    margin-bottom:3%;
+}
+
+.quote-button{
+    height: 52px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    gap: 10px;
+    background: #FF6551;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: white;
+    }
+
+
+.learn-button{
+    height: 52px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    gap: 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #FF6551;
+    border-color: #FF6551;
+}
+
+.card-header {
+    margin-top:40%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    background-color: white;
+}
+
+.card-header:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card-title{
+    margin-top:5%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+}
+
+.card-text{
+    margin-top:5%;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+.animation-header {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 2s ease, transform 2s ease;
+}
+
+/* CSS for elements when they are in the viewport */
+.animation-header.in-viewport {
+  opacity: 1;
+  transform: translateX(0);
+}
+/* Fim Estilos Header*/
+
+/* Estilos About*/
+
+#about{
+    padding-top: 10%;
+}
+
+.texts-about{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.title-about{
+    padding-top: 5%;   
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #252B42;
+}
+
+.text-about{
+    padding-top: 5%;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+
+.link-about{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FF6551;
+    text-decoration: none;
+}
+
+.img-about {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 2s ease, transform 2s ease;
+}
+  
+  /* CSS for elements when they are in the viewport */
+.img-about.in-viewport {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.texts-about {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 2s ease, transform 2s ease;
+}
+  
+  /* CSS for elements when they are in the viewport */
+.texts-about.in-viewport {
+    opacity: 1;
+    transform: translateX(0);
+}
+/* Fim Estilos About*/
+
+/* Estilos Companies*/
+
+#companies{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.img-companies:hover img {
+    transform: scale(0.5);
+}
+
+.img-companies:hover::before {
+    opacity: 1;
+}
+
+/* Fim Estilos Companies*/
+
+
+/* Estilos Courses*/
+
+#courses{
+    padding-top: 10%;
+    padding-bottom: 15%;
+    background: #26335D;
+}
+
+.courses-ltitle{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FF6551;
+}
+
+.courses-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: white;
+}
+
+.courses-text{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:white;       
+}
+
+.card-courses {
+    margin-top:15%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.icons-courses{
+    position: absolute;
+        /* Ensure it appears above the other image */
+    top: 300px;
+    left: 125px;
+}
+    
+.sale-img {
+    position: absolute;
+    z-index: 1; /* Ensure it appears above the other image */
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.like-icon{
+    padding-right:10px;
+}
+
+.basket-icon{
+    padding-right:10px;
+}
+
+ /* Define hover styles using CSS */
+.like-icon:hover {
+    content: url('images/like-hover.png');
+}
+
+.basket-icon:hover {
+    content: url('images/basket-hover.png');
+}
+
+.like2-icon:hover {
+    content: url('images/like-2-hover.png');
+}
+
+.learn-button-courses{
+    width: 141.14px;
+    height: 44px;
+    padding: 10px 20px;
+    border-radius: 37px;
+    gap: 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #FF6551;
+    border-color: #FF6551;
+}
+
+.first-title-card-courses{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FF6551;
+}
+
+.card-title-courses{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+}
+.card-text-courses{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+
+.number-sales{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+.price1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #BDBDBD;
+}
+.price2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #2435A1;
+}
+
+.row-courses {
+    opacity: 0;
+    transform: translateY(50px); /* Change translateX to translateY and set a negative value */
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+  
+  /* CSS for elements when they are in the viewport */
+.row-courses.in-viewport {
+    opacity: 1;
+    transform: translateY(0); /* Change translateX to translateY */
+}
+/* Fim Estilos Courses*/
+
+/*Estilos Princing Table*/
+#pricing-table{
+    padding-top:10%;
+}
+.card-pricing-table {
+    margin-top: 20%;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    background-color: white;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+}
+  
+.card-pricing-table:hover {
+    transform: translateY(-10px); /* Move the card up by 10 pixels */
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.pricing-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+}
+
+.pricing-text{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;      
+}
+
+.card-title-pricing-table{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+}
+
+.card-text-pricing-table{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+
+.card-body-pricing-table{
+    padding-left: 10%;
+}
+
+.pricing-price{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FF6551;
+}
+
+.pricing-price2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #8EC2F2;
+    margin-top: -5%;
+}
+
+.card-text-pricing-table2{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+
+.try-free-button{
+    width: 243px;
+    height: 52px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    gap: 10px;
+    background: #FF6551;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: white;
+}
+
+.check-text{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #252B42;
+}
+
+.new-tag-img{
+    /*position: absolute;
+    z-index: 1;  Ensure it appears above the other image */
+    margin-top: -115px;
+    margin-left: 280px;
+    padding: 10px;
+    border-radius: 3px;
+}
+  
+.the-cards-pricing-side{
+    width: 25rem; 
+    margin-right: 4%;
+}
+
+.the-cards-pricing{
+    width: 25rem;
+}
+
+.row-pricing-table {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.1s ease-out, transform 0.2s ease-out;
+}
+
+.row-pricing-table.in-viewport {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.row-pricing-table2 {
+    opacity: 0;
+    transform: translateY(-50px); /* Change translateX to translateY and set a negative value */
+    transition: opacity 0.5s ease-out, transform 0.6s ease-out;
+}
+  
+  /* CSS for elements when they are in the viewport */
+.row-pricing-table2.in-viewport {
+    opacity: 1;
+    transform: translateY(0); /* Change translateX to translateY */
+}
+
+.row-pricing-table3 {
+    opacity: 0;
+    transform: translateY(-50px); /* Change translateX to translateY and set a negative value */
+    transition: opacity 0.9s ease-out, transform 1.0s ease-out;
+}
+  
+  /* CSS for elements when they are in the viewport */
+.row-pricing-table3.in-viewport {
+    opacity: 1;
+    transform: translateY(0); /* Change translateX to translateY */
+}
+/* Fim estilos pricing table */
+
+/* estilos testimonial */
+#testimonial{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.testimonial-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #252B42;
+}
+
+.testimonial-text{
+    padding-bottom: 5%;
+}
+.card-text-testimonial{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #737373;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+.the-names{
+    padding-left: 10%;
+}
+
+.row-person-testimonial{
+    padding-left: 20%;
+}
+
+.person-name{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FF6551;
+    margin-top: 5%;
+}
+
+.person-job{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #252B42;
+    margin-top: -4%;
+}
+    
+.footer-image{
+    padding-left: 70%;
+}
+.row-testimonial {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 2s ease, transform 2s ease;
+  }
+  
+  /* CSS for elements when they are in the viewport */
+.row-testimonial.in-viewport {
+    opacity: 1;
+    transform: translateX(0);
+}
+/* Fim Estilos Testimonial */
+
+/* Estilos Newsletter */
+#newsletter{
+    padding-bottom: 15%;
+}
+.newsletter-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: #252B42;
+}
+
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 58px;
+    background-color: #F9F9F9;
+    margin-left: 20%;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+
+.newsletter-button{
+    height: 58px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    gap: 10px;
+    background: #FF6551;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: white;
+    margin-left: -80%;
+}
+
+.row-form-newsletter{
+    margin-top: 5%;
+}
+
+.row-animation-newsletter {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 2s ease, transform 2s ease;
+  }
+  
+  /* CSS for elements when they are in the viewport */
+.row-animation-newsletter.in-viewport {
+    opacity: 1;
+    transform: translateX(0);
+}
+/*FIM Estilos Newsletter */
+
+/*Estilos Footer */
+.title-footer{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+}
+.text-footer{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+    text-decoration: none;
+}
+
+.text-footer-other{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+    text-decoration: none;
+    }
+
+.copyright{
+    background: #FAFAFA;
+}
+
+.copyright-text{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:#737373;   
+}
+
+a:hover i.bi-facebook,a:hover  i.bi-instagram,a:hover i.bi-twitter{
+    color: black !important;
+}
+/*Fim Estilos Footer */
+
+/* Responsividade Laptops */
+@media only screen and (min-width: 1024px) and (max-width: 1535px) {
+    #header {
+        height: 800px; /* Set the desired height of your section */
+    }
+    .icons-courses{
+        position: absolute;
+         /* Ensure it appears above the other image */
+        top: 250px;
+        left: 100px;
+    }
+
+    .the-cards-pricing-side{
+        width: 21rem; 
+    }
+    
+    .the-cards-pricing{
+        width: 21rem;
+    }
+    .new-tag-img{
+    margin-left: 230px;
+    }
+    .card-body-pricing-table{
+        padding-left: 5%;
+    }
+}
+
+/* Responsividade Tablets */
+@media only screen and (min-width: 415px) and (max-width: 1023px) {
+    #header {
+        background-image: url("images/header-mobile.png"); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+        background-size: cover; /* This property ensures that the background image covers the entire section */
+        background-position: left; /* This property centers the background image within the section */
+        height: 800px; /* Set the desired height of your section */
+        margin-top: 5%;
+    }
+
+    .header-one{
+        margin-top: 5%;
+        z-index: 1;
+    }
+
+    .card-header {
+        margin-top:5%;
+        padding: 10px;
+    }
+    
+    .img-ratings{
+        margin-left: -100%;
+    }
+    .icons-courses{
+        position: absolute;
+         /* Ensure it appears above the other image */
+        top: 125px;
+        left: 30px;
+    }
+
+    .price2{
+        margin-right: 1px;
+        
+    }
+        .the-cards-pricing-side{
+        width: 21rem; 
+    }
+    
+    .the-cards-pricing{
+        width: 21rem;
+    }
+    .new-tag-img{
+    margin-left: 230px;
+    }
+    .card-body-pricing-table{
+        padding-left: 5%;
+    }
+    .footer-image{
+        margin-left: -100%;
+    }
+    .responsive-footer{
+        flex:33%;
+    }
+    .title-footer{
+        margin-top: 5%;
+    }
+}
+
+
+/* Responsividade mobile */
+@media only screen and (min-width: 360px) and (max-width: 414px) {
+    #header {
+        background-image: url("images/header-mobile.png"); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+        background-size: cover; /* This property ensures that the background image covers the entire section */
+        background-position: left; /* This property centers the background image within the section */
+        height: 450px; /* Set the desired height of your section */
+        margin-top: 5%;
+    }
+
+    .header-one{
+        margin-top: 5%;
+        z-index: 1;
+    }
+
+    .card-header {
+        margin-top:5%;
+      }
+    
+    .img-companies{
+        padding: 1%;
+    }
+    .icons-courses{
+        position: absolute;
+         /* Ensure it appears above the other image */
+        top: 250px;
+        left: 100px;
+    }
+
+    .img-ratings{
+        margin-left: -15%;
+    }
+
+    .new-tag-img{
+        /*position: absolute;
+        z-index: 1;  Ensure it appears above the other image */
+    margin-left: 230px;
+    }
+    .footer-image{
+        margin-left: -100%;
+    }
+    .the-names{
+        padding-left: 20%;
+    }
+
+    input[type=text], select {
+        margin-left: 7%;
+    }
+    
+    .newsletter-button{
+        margin-top: 2px;
+        margin-left: 25%;
+    }
+    .responsive-footer{
+        flex:50%;
+    }
+    .title-footer{
+        margin-top: 5%;
+    }
+
+}
